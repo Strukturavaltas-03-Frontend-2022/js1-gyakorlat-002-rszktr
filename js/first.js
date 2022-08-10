@@ -5,7 +5,7 @@
 __térjen vissza__ az elemek egész számra kerekített összegével!
 */
 
-brutto = (productPricesArray) =>
+const brutto = (productPricesArray) =>
     Math.round(
         productPricesArray
             .map(item => item * 1.27)
